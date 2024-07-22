@@ -1,0 +1,224 @@
+html,
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.wrapper {
+  min-height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1160px;
+  padding: 0 15px;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.btn {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: normal;
+  color: #fff;
+  text-align: center;
+  background: -webkit-gradient(linear, left top, right top, from(#a88453), to(#d8c197));
+  background: linear-gradient(90deg, #a88453 0%, #d8c197 100%);
+  border-radius: 5px;
+  padding: 14px 80px;
+}
+
+.header {
+  background-image: url("../images/main-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 81px;
+  height: 500px;
+}
+
+.header__content-inner {
+  padding-top: 67px;
+}
+
+.header__content-title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: normal;
+  color: #f0f2f5;
+  max-width: 544px;
+}
+
+.header__content-subtitle {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: normal;
+  color: #f0f2f5;
+  max-width: 544px;
+  margin: 40px 0px;
+}
+
+.header__btn-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header__arrow-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 25px;
+}
+
+.header__btn-left {
+  margin-right: 10px;
+}
+
+.main {
+  margin-top: 100px;
+}
+
+.numbers__heading-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.numbers__heading {
+  max-width: 458px;
+}
+
+.numbers__title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: normal;
+  color: #1a2042;
+}
+
+.numbers__text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: normal;
+  color: #1a2042;
+}
+
+.numbers__circles-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.numbers__list-item {
+  background: #f0f2f5;
+  border-radius: 200px;
+  width: 191px;
+  height: 185px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 52px 31px;
+}
+.numbers__list-item:nth-child(2) {
+  background: -webkit-gradient(linear, left top, right top, from(#a88453), to(#d8c197));
+  background: linear-gradient(90deg, #a88453 0%, #d8c197 100%);
+  padding: 52px;
+  margin: 0 -15px;
+}
+
+.numbers__cirles-title {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: normal;
+  color: #fff;
+  background: -webkit-gradient(linear, left top, right top, from(#a88453), to(#d8c197));
+  background: linear-gradient(90deg, #a88453 0%, #d8c197 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.numbers__cirles-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 125%;
+  color: #1a2042;
+  margin-top: -5px;
+}
+
+.numbers__cirles-title--white {
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: currentColor;
+}
+
+.numbers__cirles-text--white {
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.numbers__content {
+  margin-top: 100px;
+  margin-bottom: 255px;
+}
+
+.numbers__content-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.numbers__content-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 290px;
+}
+
+.numbers__item-icon {
+  margin-right: 20px;
+}
+
+.numbers__content-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: normal;
+  color: #1a2042;
+}
+.numbers__content-text span {
+  font-weight: 700;
+  font-size: 20px;
+}
